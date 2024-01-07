@@ -18,10 +18,10 @@ export const data=[
     },
     {
         id:3,
-        name:"Redux Shopping Cart Application",
+        name:"User-Admin Login",
         image:WorkIm,
-        github:"https://github.com/saransaran26/Redux-shopping-cart/tree/master/pratice/myapp",
-        live:"https://650c6f80400256516f2aa350--shimmering-platypus-155073.netlify.app/",
+        github:"https://github.com/saransaran26/User-Admin-Login",
+        live:"https://startling-alpaca-cfb1bc.netlify.app/",
     },
 
 
