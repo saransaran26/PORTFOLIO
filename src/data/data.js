@@ -18,7 +18,7 @@ export const data=[
     },
     {
         id:3,
-        name:"User-Admin Login",
+        name:"MERN User-Admin Login",
         image:WorkIm,
         github:"https://github.com/saransaran26/User-Admin-Login",
         live:"https://startling-alpaca-cfb1bc.netlify.app/",
