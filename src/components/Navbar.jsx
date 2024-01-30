@@ -51,11 +51,16 @@ function Navbar() {
           </li>
         </ul>
    <div onClick={menuClick} className='md:hidden z-10'>
-          {!navs ? <FaBars /> : <FaTimes />}
+          {!navs ? <FaBars className='cursor-pointer'/> : <FaTimes className='cursor-pointer'/>}
         </div>
   
   
   <ul className={!navs ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center space-y-7'}>
+          <div className='mb-6 space-x-5'>
+            <a href="https://drive.google.com/file/d/1_M53sM6NwF6Bjz_POdHJcslgQfuwIktN/view?usp=sharing" target='_blank' className='text-2xl hover:border-b-4 border-white'>Resume</a>
+            <a href="https://github.com/saransaran26" target='_blank' className='text-2xl hover:border-b-4 border-white'>Github</a>
+            <a href="https://www.linkedin.com/in/saran-chakravarthy-r-5752a5276/" target='_blank' className='text-2xl hover:border-b-4 border-white'>Linkdin</a>
+          </div>
           <li className='cursor-pointer text-xl hover:border-b-4 border-white'>
           <Link to='home' smooth={true} duration={500}>
             Home

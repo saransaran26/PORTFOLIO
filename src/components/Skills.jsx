@@ -13,7 +13,7 @@ import tailwind from '../assets/tailwind.png'
 function Skills() {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full p-4">
         <div>
           <p className="text-4xl inline border-b-4 border-pink-600 font-bold">
             Skills
