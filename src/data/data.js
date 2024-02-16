@@ -32,8 +32,8 @@ export const data=[
         id:4,
         name:"MERN Blog Application",
         image:blog,
-        github:"https://github.com/saransaran26/MERN-Blog-App",
-        live:"https://main--effervescent-otter-087195.netlify.app/",
+        github:"https://github.com/saransaran26/Blog-App",
+        live:"https://preeminent-starship-bdfc20.netlify.app/",
     },
 
 
